@@ -10,7 +10,7 @@ def predict(data):
     clf = pickle.load(open("mymodel.pkl","rb"))
     return clf.predict(data)
 
-st.title("Advertig spends Prediction using machine learning")
+st.title("Advertising spends Prediction using machine learning")
 st.markdown("This Model Identify total spends on advertising")
 
 st.header("Advertising spend on various media")
